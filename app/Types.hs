@@ -3,9 +3,10 @@ module Types where
 import Data.Time
 import qualified Data.Text as T
 
-data Attendee = Person { fstName :: String
-                        , lastName :: String
-                        }
+data Recipient = Person { fstName :: String
+                    , lastName :: String
+                    , emailAdr :: String
+                    }
 type Location = String
 type Subject = String
 type Schedule =  UTCTime

@@ -1,1 +1,1 @@
-# haskellP1
+# Mailing tool in haskell
