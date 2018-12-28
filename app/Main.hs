@@ -34,10 +34,10 @@ to         = [Address (Just "Jason Hickner") "mamadou1.dia@gmail.com"]
 cc         = []
 bcc        = []
 subject    = "email subject"
-body       = plainTextPart "email body"
-html       = htmlPart "<h1>HTML</h1>"
+bodyOfMail       = plainTextPart "email body"
+htmlOfMail       = htmlPart "<h1>HTML</h1>"
 
-mail = simpleMail from to cc bcc subject [body, html]
+mail = simpleMail from to cc bcc subject [bodyOfMail, htmlOfMail]
 
 
 
