@@ -59,6 +59,6 @@ app =
               text ("Hello " <> name <> ", you are visitor number " <> T.pack (show visitorNumber))
 
        get ("send-email" <//> var) $ \emailAddr ->
-           do sendMailWithLogin host "mamadou1.dia@gmail.com" "Nique Google" mail
+         --  do sendMailWithLogin host "mamadou1.dia@gmail.com" "Nique Google" mail
               text ("Email sent at " <> emailAddr)
 
