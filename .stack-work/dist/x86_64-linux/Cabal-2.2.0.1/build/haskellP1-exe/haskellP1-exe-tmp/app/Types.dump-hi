@@ -1,0 +1,331 @@
+
+==================== FINAL INTERFACE ====================
+2018-12-28 19:52:29.623973468 UTC
+
+interface main:Types 8044
+  interface hash: 970d5476d04b63b82d2354b3f9aadc91
+  ABI hash: 46395ecb7250d601f7d5f7e5a4b38706
+  export-list hash: 7a2bbca9e077a66a8d7ad53b0db1da3f
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 8e1d1941ae4044bb921ed4c71f62136f
+  opt_hash: 14e536840aca4e889cad654e6f9b79c1
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Types.Duration{Types.Duration}
+  Types.Event{Types.Event}
+  Types.Location
+  Types.Price{Types.Maybe}
+  Types.Recipient{Types.Person emailAdr fstName lastName}
+  Types.Schedule
+  Types.Status{Types.Close Types.Open}
+  Types.Subject
+module dependencies:
+package dependencies: array-0.5.2.0 base-4.11.1.0* binary-0.8.5.1
+                      bytestring-0.10.8.2 containers-0.5.11.0 deepseq-1.4.3.0
+                      ghc-prim-0.5.2.0 integer-gmp-1.0.2.0 text-1.2.3.1* time-1.8.0.2
+orphans: time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian text-1.2.3.1:Data.Text
+         binary-0.8.5.1:Data.Binary.Generic
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         text-1.2.3.1:Data.Text.Show base-4.11.1.0:GHC.Float
+         base-4.11.1.0:GHC.Base
+family instance modules: base-4.11.1.0:Control.Applicative
+                         base-4.11.1.0:Data.Complex base-4.11.1.0:Data.Functor.Compose
+                         base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity
+                         base-4.11.1.0:Data.Functor.Product base-4.11.1.0:Data.Functor.Sum
+                         base-4.11.1.0:Data.Monoid base-4.11.1.0:Data.Semigroup
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:Data.Void base-4.11.1.0:GHC.Exts
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+                         containers-0.5.11.0:Data.IntMap.Internal
+                         containers-0.5.11.0:Data.IntSet.Internal
+                         containers-0.5.11.0:Data.Map.Internal
+                         containers-0.5.11.0:Data.Sequence.Internal
+                         containers-0.5.11.0:Data.Set.Internal containers-0.5.11.0:Data.Tree
+                         text-1.2.3.1:Data.Text
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  text-1.2.3.1:Data.Text cb97f965b33763b648b5393c0517cf50
+import  -/  time-1.8.0.2:Data.Time f7ed41af638d3beef98547dc5abd1ceb
+import  -/  time-1.8.0.2:Data.Time.Clock.Internal.UTCTime 111ef88903edea12bdeadf6351e67d6c
+2a2d1cbe2f6f4b6c7e1319d714eda421
+  $tc'Close :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7284219672116364517##
+                   16957289378941199372##
+                   Types.$trModule
+                   Types.$tc'Close2
+                   0#
+                   Types.$tc'Close1) -}
+176301449650f2c4a9152759d32d0c0c
+  $tc'Close1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+b4aabb4cc6867bf72c1eafcb03f1f80c
+  $tc'Close2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tc'Close3) -}
+089f0aeb563a3ce5f7ee5293b328734d
+  $tc'Close3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Close"#) -}
+dfe0776a29ba2fa529d66129bb8be942
+  $tc'Duration :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   467736391816846543##
+                   6381249413958271216##
+                   Types.$trModule
+                   Types.$tc'Duration2
+                   0#
+                   Types.$tc'Duration1) -}
+ff7f201f1043ac6a3522a22df81e50b6
+  $tc'Duration1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+646238fa7def1034c603c59b5e5d795e
+  $tc'Duration2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tc'Duration3) -}
+8aeafe96d2d1dcef19959a59983c1303
+  $tc'Duration3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Duration"#) -}
+0727153e207d222543e213324cf67223
+  $tc'Event :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2563258837112185557##
+                   349748187898091492##
+                   Types.$trModule
+                   Types.$tc'Event2
+                   0#
+                   Types.$tc'Event1) -}
+88a4b616346e76150099ebc0995c1d37
+  $tc'Event1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+9e5f3eb2bc524a42fc9ffe60a0002a72
+  $tc'Event2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tc'Event3) -}
+6c15ef29f276710b5b4549e58f1affca
+  $tc'Event3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Event"#) -}
+17bbe46358d8fe2000b55ffa930d1bcc
+  $tc'Maybe :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8931251265338546087##
+                   18031812345920370713##
+                   Types.$trModule
+                   Types.$tc'Maybe2
+                   0#
+                   Types.$tc'Maybe1) -}
+4518bf9c4ea89dbc5b9c1db1b873e020
+  $tc'Maybe1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+3bb5c375a89871d4e1d2526146ce8737
+  $tc'Maybe2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tc'Maybe3) -}
+19e2331033768213fa2cf776e5931490
+  $tc'Maybe3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Maybe"#) -}
+203f0f30196a73e36d1040cef56f93d6
+  $tc'Open :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1401455353730827022##
+                   6861467886609004304##
+                   Types.$trModule
+                   Types.$tc'Open1
+                   0#
+                   Types.$tc'Close1) -}
+1e06b475ee6b0ee2e1e6d88c5069572e
+  $tc'Open1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tc'Open2) -}
+e5f5be7f5de726734be8706cad328558
+  $tc'Open2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Open"#) -}
+41208939f898578da61c2f9516fe0ea1
+  $tc'Person :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2081494982332670078##
+                   7332350235366501972##
+                   Types.$trModule
+                   Types.$tc'Person2
+                   0#
+                   Types.$tc'Person1) -}
+3f716138f94a9f94d894b2630b0437f2
+  $tc'Person1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+fb59d5b724764e3843c39279b680a471
+  $tc'Person2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tc'Person3) -}
+90a7b910b1419e00c9692a9043adf23e
+  $tc'Person3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Person"#) -}
+c561b651a0e222cb408c399f16d1d956
+  $tcDuration :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7724492103590001760##
+                   3739491394671660020##
+                   Types.$trModule
+                   Types.$tcDuration1
+                   0#
+                   GHC.Types.krep$*) -}
+e11a2f09b06a872422d627fd7c4a3e94
+  $tcDuration1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tcDuration2) -}
+d5a4f90d9803e75402c8991d45bf1148
+  $tcDuration2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Duration"#) -}
+10fa3db6c0975c15072006c5348da657
+  $tcEvent :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   7400373997712504##
+                   15187514522770736523##
+                   Types.$trModule
+                   Types.$tcEvent1
+                   0#
+                   GHC.Types.krep$*) -}
+2a52b88f3837b0c04414804e7b6a74ab
+  $tcEvent1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tcEvent2) -}
+7d13ac34e81d0b7a15b6475ce7c47408
+  $tcEvent2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Event"#) -}
+ea0e6f22aa5027e63de5156309e7d79d
+  $tcPrice :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5651899150418830637##
+                   9293874787507711261##
+                   Types.$trModule
+                   Types.$tcPrice1
+                   0#
+                   GHC.Types.krep$*) -}
+ab917712606238f062091ba40ccfe357
+  $tcPrice1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tcPrice2) -}
+1fbf27b956d8c37d55cb75eadc710090
+  $tcPrice2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Price"#) -}
+7d44a25e38cfce9e879648122bfebc61
+  $tcRecipient :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   980099783697117245##
+                   17426075423243076013##
+                   Types.$trModule
+                   Types.$tcRecipient1
+                   0#
+                   GHC.Types.krep$*) -}
+74efb044a5a1526b298d73fd6cd5bda8
+  $tcRecipient1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tcRecipient2) -}
+a5917068085104a4bae93785c1ab5d32
+  $tcRecipient2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Recipient"#) -}
+f552beeb5409d6313f348faea5a1e188
+  $tcStatus :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   3586951531276995021##
+                   14994318750272201638##
+                   Types.$trModule
+                   Types.$tcStatus1
+                   0#
+                   GHC.Types.krep$*) -}
+b0cdac51e01922368999e3c0dbc75430
+  $tcStatus1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$tcStatus2) -}
+0d10ee6a3db95b5c86c6a6ed3d3889f7
+  $tcStatus2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Status"#) -}
+f0b0c631977c06394b8fa5a6eac9a87d
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Types.$trModule3 Types.$trModule1) -}
+b8a341ba0daf480543041d8abd6e221d
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$trModule2) -}
+6041368dbbc5427415dfd0c007a9dc0b
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Types"#) -}
+0e8639ca5d59459d020870a9dcb25689
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Types.$trModule4) -}
+e1b3e3d147beccf53766a0da95111e0d
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+4f2427550441c1593b61d16c01b629a5
+  data Duration = Duration GHC.Types.Int GHC.Base.String
+961fbf82fa428b686eb13f2497e091a3
+  data Event
+    = Event Types.Subject
+            Types.Location
+            Types.Schedule
+            [Types.Recipient]
+            Types.Price
+            Types.Status
+            Types.Duration
+743d298e455e12b8ba462e29c56612cd
+  type Location = GHC.Base.String
+31ed73962aec2cd9fbdfccc7789bb15c
+  data Price = Maybe GHC.Types.Int
+96e78dd5fab9861bd12fd5f537517c18
+  data Recipient
+    = Person {fstName :: GHC.Base.String,
+              lastName :: GHC.Base.String,
+              emailAdr :: GHC.Base.String}
+5d92761ea8bb6fb8f2e0b296d875c47c
+  type Schedule = Data.Time.Clock.Internal.UTCTime.UTCTime
+ba6c895168b408758f9221213749b9eb
+  data Status = Open | Close
+34cebe8c2cb9845857ea0adb23bb5466
+  type Subject = GHC.Base.String
+96e78dd5fab9861bd12fd5f537517c18
+  emailAdr :: Types.Recipient -> GHC.Base.String
+  RecSel Left Types.Recipient
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LLS),1*U(A,A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Types.Recipient) ->
+                 case ds of wild { Types.Person ds1 ds2 ds3 -> ds3 }) -}
+96e78dd5fab9861bd12fd5f537517c18
+  fstName :: Types.Recipient -> GHC.Base.String
+  RecSel Left Types.Recipient
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SLL),1*U(1*U,A,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Types.Recipient) ->
+                 case ds of wild { Types.Person ds1 ds2 ds3 -> ds1 }) -}
+96e78dd5fab9861bd12fd5f537517c18
+  lastName :: Types.Recipient -> GHC.Base.String
+  RecSel Left Types.Recipient
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LSL),1*U(A,1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Types.Recipient) ->
+                 case ds of wild { Types.Person ds1 ds2 ds3 -> ds2 }) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

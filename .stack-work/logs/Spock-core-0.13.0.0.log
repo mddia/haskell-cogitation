@@ -1,0 +1,13 @@
+Configuring Spock-core-0.13.0.0...
+Preprocessing library for Spock-core-0.13.0.0..
+Building library for Spock-core-0.13.0.0..
+[1 of 8] Compiling Web.Spock.Internal.Cookies ( src/Web/Spock/Internal/Cookies.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Internal/Cookies.o )
+[2 of 8] Compiling Web.Spock.Internal.Util ( src/Web/Spock/Internal/Util.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Internal/Util.o )
+[3 of 8] Compiling Web.Spock.Internal.Wire ( src/Web/Spock/Internal/Wire.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Internal/Wire.o )
+[4 of 8] Compiling Web.Spock.Internal.CoreAction ( src/Web/Spock/Internal/CoreAction.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Internal/CoreAction.o )
+[5 of 8] Compiling Web.Spock.Internal.Config ( src/Web/Spock/Internal/Config.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Internal/Config.o )
+[6 of 8] Compiling Web.Spock.Action ( src/Web/Spock/Action.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Action.o )
+[7 of 8] Compiling Web.Spock.Routing ( src/Web/Spock/Routing.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Routing.o )
+[8 of 8] Compiling Web.Spock.Core   ( src/Web/Spock/Core.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Web/Spock/Core.o )
+Installing library in /home/madcplusplus/haskellP1/.stack-work/install/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/Spock-core-0.13.0.0-FETdES8u3esIqcJkRyIhvz
+Registering library for Spock-core-0.13.0.0..

@@ -1,0 +1,7 @@
+Configuring list-t-1.0.1...
+Preprocessing library for list-t-1.0.1..
+Building library for list-t-1.0.1..
+[1 of 2] Compiling ListT.Prelude    ( library/ListT/Prelude.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/ListT/Prelude.o )
+[2 of 2] Compiling ListT            ( library/ListT.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/ListT.o )
+Installing library in /home/madcplusplus/.stack/snapshots/x86_64-linux/lts-12.20/8.4.4/lib/x86_64-linux-ghc-8.4.4/list-t-1.0.1-LKChZIRPoiN4rkDmeAnV34
+Registering library for list-t-1.0.1..
