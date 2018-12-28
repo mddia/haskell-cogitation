@@ -9,6 +9,7 @@ import Data.Monoid
 import Lib
 import qualified Data.Text as T
 import Types
+import Network.Mail.SMTP
 
 --Function composition
 f :: Int -> Int
@@ -28,7 +29,19 @@ data MyAppState = DummyAppState (IORef Int)
 --main = do
 --	print $ h 3
 --	putStrLn eventSubject
+from       = Address Nothing "mamadou1.dia@gmail.com"
+to         = [Address (Just "Jason Hickner") "mamadou1.dia@gmail.com"]
+cc         = []
+bcc        = []
+subject    = "email subject"
+body       = plainTextPart "email body"
+html       = htmlPart "<h1>HTML</h1>"
 
+mail = simpleMail from to cc bcc subject [body, html]
+
+
+
+--sendEmailTo = sendMailWithLogin "smtp.gmail.com" "mamadou1.dia@gmail.com" "Nique Google" mail
 
 main :: IO ()
 main =
@@ -44,4 +57,8 @@ app =
            do (DummyAppState ref) <- getState
               visitorNumber <- liftIO $ atomicModifyIORef' ref $ \i -> (i+1, i+1)
               text ("Hello " <> name <> ", you are visitor number " <> T.pack (show visitorNumber))
+
+       get ("send-email" <//> var) $ \emailAddr ->
+           do sendMailWithLogin "smtp.gmail.com" "mamadou1.dia@gmail.com" "Nique Google" mail
+              text ("Email sent at " <> emailAddr)
 
