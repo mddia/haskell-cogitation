@@ -62,5 +62,5 @@ app =
        get ("send-email" <//> var) $ \emailAddr ->
            do (DummyAppState ref) <- getState 
               sendMailWithLogin "smtp.gmail.com" "mamadou1.dia@gmail.com" "Nique Google" mail
-              text ("Email sent at " <> emailAddr)
+             -- text ("Email sent at " <> emailAddr)
 
