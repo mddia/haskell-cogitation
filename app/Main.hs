@@ -10,7 +10,7 @@ import Lib
 import qualified Data.Text as T
 import Types
 import Network.Mail.SMTP
-import Network.BSD (getHostName)
+
 
 --Function composition
 f :: Int -> Int
