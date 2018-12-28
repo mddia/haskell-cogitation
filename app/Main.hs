@@ -7,6 +7,7 @@ import Control.Monad.Trans
 import Data.IORef
 import Data.Monoid
 import Lib
+import qualified Data.Text as T
 import Types
 
 --Function composition
